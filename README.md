@@ -13,6 +13,8 @@ In addition to the terms and definitions, in this chapter, Noah Gift showed us m
 ### Github codespaces
 Codespace allow online, and always clean environment. It also allow the use of cloud computing to build code or train ML models. It use docker and vscode.
 
+I got to play with codespace, but saddly I was not able to get access to a GPU so I ended up running the code on my own machine.
+
 #### devcontainer.json
 This file allow us to define a custom codespace (online vscode) deployed within our custom docker and our personalized vscode extention. That way we always have a clean development environment to work in.
 
