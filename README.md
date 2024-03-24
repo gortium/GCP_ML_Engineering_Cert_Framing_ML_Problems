@@ -1,5 +1,7 @@
-# Google Cloud Professional Machine Learning Engineering Certificate
+# LinkedIn Google Cloud Professional Machine Learning Engineering Certificate Preparation
 This repository is part of my effort to pass the Google Cloud Professional Machine Learning Engineering Certificate
+
+It follow the course given by Noah Gift on LinkedIn Learning: https://www.linkedin.com/learning/paths/prepare-for-the-google-cloud-professional-machine-learning-engineer-certification
 
 Here you can find my notes on the exam: https://gortium.github.io/Slit-box/LinkedIn-Google-Cloud-Professional-Machine-Learning-Engineer-Certification
 
