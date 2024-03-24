@@ -1,18 +1,18 @@
 install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
-test:
-	python -m pytest -vv --cov=main --cov=mylib test_*.py
-
-format:	
-	black *.py hugging-face/zero_shot_classification.py hugging-face/hf_whisper.py
 
 lint:
-	pylint --disable=R,C --ignore-patterns=test_.*?py *.py mylib/*.py\
-		 hugging-face/zero_shot_classification.py hugging-face/hf_whisper.py
+	pylint --disable=R,C --ignore-patterns=test_.*?py **/*.py
 
 container-lint:
 	docker run --rm -i hadolint/hadolint < Dockerfile
+
+test:
+	python -m pytest -vv --cov=hf_fine_tune_hello_world test_*.py
+
+format:	
+	black **/*.py
 
 checkgpu:
 	echo "Checking GPU for PyTorch"
